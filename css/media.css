@@ -1,0 +1,53 @@
+/* @media screen and (min-width: 769px) {
+  .skils-card {
+    display: block;
+    text-align: center;
+    width: 25%;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .menu-bar {
+    display: flex;
+  }
+  .menu-link{
+    display: none;
+   }
+   .content-left {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+   }
+   .content-right {
+    display: none;
+   }
+   .skils-card {
+    width: 33%;
+  }
+  .portfolio-card {
+    width: 50%;
+  }
+  .img-bg {
+    display: none;
+  }
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-left {
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 565px) {
+.skils-card {
+  width: 50%;
+}
+.portfolio-card {
+  width: 100%;
+}
+
+}
